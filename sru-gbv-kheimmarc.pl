@@ -145,7 +145,6 @@ sub getVal {
 
 }
 
-## eigene sub für Schlagworte / Notation
-## return $data->{'zs:records'}->{'zs:record'}[$n]->{'zs:recordData'}->{'record'}->{'datafield'}->{$tag}->{'subfield'}->{$code}->{'content'};
-## foreach...
-## alle vorh. tag-einträge holen, dann foreach durchitereieren durch array
+## eigene subroutine für Schlagworte / Notation
+## Array durchiterieren und alle tag-Einträge holen
+## -> nicht erstellt, da forcearray für tags nicht funktioniert
